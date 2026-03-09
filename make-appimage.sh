@@ -12,7 +12,8 @@ export APPNAME="MarioKart 64 Recompiled"
 export DEPLOY_VULKAN=1
 
 # Deploy dependencies
-quick-sharun /PATH/TO/BINARY_AND_LIBRARIES_HERE
+quick-sharun ./AppDir/bin/MarioKart64Recompiled
+echo 'SHARUN_WORKING_DIR=${SHARUN_DIR}/bin' >> ./AppDir/.env
 
 # Additional changes can be done in between here
 
