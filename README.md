@@ -7,13 +7,13 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/MarioKart64Recomp-AppImage)](https://github.com/pkgforge-dev/MarioKart64Recomp-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/sonicdcer/MarioKart64Recomp/blob/main/icons/512.png" width="128" />
+  <img src="https://gitlab.com/sonicdcer/MarioKart64Recomp/-/raw/main/icons/512.png?ref_type=heads" width="128" />
 </p>
 
 
 | Latest Stable Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/MarioKart64Recomp-AppImage/releases/latest) | [Click here](https://github.com/sonicdcer/MarioKart64Recomp) |
+| [Click here](https://github.com/pkgforge-dev/MarioKart64Recomp-AppImage/releases/latest) | [Click here](https://gitlab.com/sonicdcer/MarioKart64Recomp) |
 
 </div>
 
