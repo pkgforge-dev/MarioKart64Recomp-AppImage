@@ -21,10 +21,6 @@ case "$ARCH" in # they use X64 and ARM64 for the zip links
 	x86_64)  zip_arch=Linux-X64-Release;;
 	aarch64) zip_arch=Linux-ARM64-Release;;
 esac
-#ZIP_LINK=$(wget -qO- https://api.github.com/repos/sonicdcer/MarioKart64Recomp/releases \
-#      | sed 's/[()",{} ]/\n/g' | grep -o -m 1 "https.*MarioKart64Recompiled.*$zip_arch.zip")
-#echo "$ZIP_LINK" | awk -F'/' '{gsub(/^v/, "", $(NF-1)); print $(NF-1); exit}' > ~/version
-#wget --retry-connrefused --tries=30 "$ZIP_LINK" -O /tmp/app.zip
 TAG=$(wget -qO- "https://gitlab.com/api/v4/projects/sonicdcer%2FMarioKart64Recomp/releases?per_page=1" \
       | sed 's/[()",{} ]/\n/g' | grep -A2 '^tag_name$' | tail -n1)
 ZIP_LINK="https://gitlab.com/api/v4/projects/sonicdcer%2FMarioKart64Recomp/packages/generic/mariokart64recompiled$(echo "${zip_arch%-Release}" | tr -d '-' | tr '[:upper:]' '[:lower:]')/${TAG#v}/MarioKart64Recompiled-${TAG}-${zip_arch}.zip"
