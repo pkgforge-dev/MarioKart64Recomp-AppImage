@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=MarioKart 64 Recompiled
-Comment=A native port of MarioKart 64, statically recompiled
-Exec=MarioKart64Recompiled
-Terminal=false
-Icon=512
-StartupWMClass=MarioKart64Recompiled
-Type=Application
-Categories=Game;Racing;
