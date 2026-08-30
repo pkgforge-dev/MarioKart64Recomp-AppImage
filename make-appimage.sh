@@ -10,8 +10,6 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=https://gitlab.com/sonicdcer/MarioKart64Recomp/-/raw/main/icons/512.png?ref_type=heads
 export DESKTOP=https://gitlab.com/sonicdcer/MarioKart64Recomp/-/raw/main/.github/linux/MarioKart64Recompiled.desktop?ref_type=heads
 export STARTUPWMCLASS=MarioKart64Recompiled
-export DEPLOY_GTK=1
-export GTK_DIR=gtk-3.0
 export DEPLOY_VULKAN=1
 
 # Deploy dependencies
